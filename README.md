@@ -10,8 +10,8 @@
 class Ai_Engineer:
 
     def __init__(self):
-        self.name = "Suwon"
-        self.role = "Ai Engineer"
+        self.name = ""
+        self.role = ""
         self.language_spoken = ["Korean", "en_US"]
 
     def Attitude(self):
@@ -21,7 +21,7 @@ class Ai_Engineer:
         print("Thanks for dropping by, hope you find some of my work interesting.")
 
 
-me = Ai_Engineer()
+me = ()
 me.say_hi()
 ```
 
